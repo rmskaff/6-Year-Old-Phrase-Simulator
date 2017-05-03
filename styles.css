@@ -1,6 +1,17 @@
 h1{
   text-align: center;
 }
+body{
+  background-image:url(images/screaming.jpeg);
+  background-size: cover;
+}
+.jumbotron{
+    background-color: rgba(39, 225, 86, 0.44) !important;
+      /*opacity:0.5;*/
+  }
+.bknd{
+  background-color: rgba(39, 225, 86, 0.8);
+}
 
 .bold {
   font-weight: bold;
@@ -17,4 +28,5 @@ h1{
   color:green;
   font-stretch: ultra-expanded;
   font-size: 40px;
+
 }

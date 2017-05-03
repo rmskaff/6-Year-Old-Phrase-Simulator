@@ -5,13 +5,13 @@
 
 $scope.words=[];
 
-var wordbank=['no', 'gimme', 'snacks', 'candy', 'more'];
+var wordbank=['no', 'gimme', 'snacks', 'candy', 'more', 'MINE!'];
 
 var classbank = [
-  'bold', "italic", 'green'
+  'bold', 'italic', 'green'
 ];
 
-var phraseBank = ['Have you seen Cars 2?', 'Zombies rule ninjas drule', "Give me more cookies!", "Whatever!"];
+var phraseBank = ['Have you seen Cars 2?', 'Zombies rule ninjas drule', "Give me more cookies!", "Whatever!", "YOU'RE NOT THE BOSS OF ME!", "I want it now.", "Are we there yet?"];
 
 $scope.addWord=function() {
 var utterance = wordbank[Math.floor(Math.random()*wordbank.length)];
